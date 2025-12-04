@@ -1,0 +1,160 @@
+# ─────────────────────────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ─────────────────────────────────────────────────────────────
+# Jupyter Notebook
+# ─────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ─────────────────────────────────────────────────────────────
+# Data Files (large datasets — use DVC or cloud storage)
+# ─────────────────────────────────────────────────────────────
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.hdf5
+*.h5
+*.pkl
+*.pickle
+*.db
+*.sqlite
+*.sqlite3
+data/
+datasets/
+raw_data/
+processed_data/
+
+# ─────────────────────────────────────────────────────────────
+# Machine Learning / Model Artifacts
+# ─────────────────────────────────────────────────────────────
+*.pt
+*.pth
+*.ckpt
+*.joblib
+models/
+checkpoints/
+saved_models/
+runs/
+
+# TensorFlow / Keras
+*.pb
+saved_model/
+tf_logs/
+tensorboard_logs/
+*.tfevents.*
+
+# TFLite Models
+# *.tflite
+
+# ─────────────────────────────────────────────────────────────
+# Logs & Outputs
+# ─────────────────────────────────────────────────────────────
+*.log
+*.out
+*.err
+logs/
+output/
+results/
+figures/
+plots/
+
+# ─────────────────────────────────────────────────────────────
+# OS-Specific Files
+# ─────────────────────────────────────────────────────────────
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+
+# ─────────────────────────────────────────────────────────────
+# IDE / Editor Files
+# ─────────────────────────────────────────────────────────────
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Spyder
+.spyderproject.cfg
+.spyproject
+
+# Jupyter Lab
+.jupyter/
+
+# ─────────────────────────────────────────────────────────────
+# Secrets & Credentials — NEVER COMMIT THESE
+# ─────────────────────────────────────────────────────────────
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+credentials.json
+service_account.json
+kaggle.json
+
+# ─────────────────────────────────────────────────────────────
+# Kaggle
+# ─────────────────────────────────────────────────────────────
+/kaggle/
+
+# ─────────────────────────────────────────────────────────────
+# Miscellaneous
+# ─────────────────────────────────────────────────────────────
+*.tmp
+*.bak
+*.swp
+*.swo
+.cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
